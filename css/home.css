@@ -114,13 +114,16 @@ img{
 }
 .telefone span{
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     transition: .5s;
 }
 .telefone:hover{
     border-left:2px solid #c0c0c0;
     border-right:2px solid #c0c0c0;
+}
+.telefone span:nth-child(2) {
+    white-space: nowrap;
 }
 .telefone:hover span:nth-child(1){
     transform: scale(1.1);
